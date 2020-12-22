@@ -19,7 +19,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='depix',
-    version='1.0.1',
+    version='1.0.2',
     author='beurtschipper',
     license='CC BY 4.0',
     url='https://github.com/beurtschipper/Depix',
@@ -32,4 +32,8 @@ setup(
     classifiers=[
         'Programming Language :: Python',
     ],
+    entry_points='''
+        [console_scripts]
+        depix=depix.depix
+    '''
 )
